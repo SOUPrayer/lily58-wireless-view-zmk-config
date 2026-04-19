@@ -72,7 +72,7 @@
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
-        Mac {
+        mac {
             display-name = "Base";
             bindings = <
 &kp ESC       &kp N1  &kp N2          &kp N3          &kp N4            &kp N5                            &kp N6         &kp N7             &kp N8          &kp N9           &kp N0    &kp GRAVE
@@ -86,7 +86,7 @@
             label = "Mac";
         };
 
-        Number {
+        number {
             display-name = "Lower";
             bindings = <
 &kp F1  &kp F2  &kp F3      &kp F4    &kp F5         &kp F6                         &kp KP_NUM  &kp KP_N7  &kp KP_N8  &kp KP_N9   &kp KP_DIVIDE    &trans
